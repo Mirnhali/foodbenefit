@@ -1,0 +1,72 @@
+﻿body {
+    margin: auto;
+    background-image: url("../Image/warm01.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 720px;
+    padding: 100px;
+}
+.container{
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(1, 79, 94,0.7);
+    border-radius:30px;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-left: 0px;
+    background-repeat: no-repeat;
+}
+.container img{
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 25px;
+}
+.input{
+    height: 40px;
+    width: 600px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 47px;
+    
+}
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  45px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+/* battan */
+ .btn{
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+ /*a{
+     color: #3399ff
+ }*/
+ /*corner{
+    width: 900px;
+    height: 800px;
+    border-radius:4px;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+ }*/

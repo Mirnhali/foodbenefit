@@ -1,0 +1,93 @@
+﻿/*body {
+    margin: auto;
+    background-image: url("../Image/44.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 1080px;
+}*/
+.container{
+    width: 700px;
+    height: 800px;
+    text-align: center;
+    background-color: rgba(52, 73, 94,0.7);
+    border-radius:30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 40px;
+}
+/*.container img{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 25px;
+}*/
+input{
+    height: 35px;
+    width: 350px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  padding-top: 20px;
+  pointer-events: none;
+  
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  27px; }
+.right-addon input { padding-right: 30px; }
+
+/* battan */
+ .btn{
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+ a{
+     color: #3399ff
+ }
+ /*corner{
+    width: 900px;
+    height: 800px;
+    border-radius:4px;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+ }*/
+ legend
+{
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 26px;
+}
+ .lblMessagebox
+ {
+    padding: 20px;
+    background-color:  #79d279; /*green*/
+    color: white;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    line-height: 10px;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;  
+ }
+ 
